@@ -1,5 +1,5 @@
-# Bug Tracker [Kotlin]
+# Bug Tracker [Revamped]
 An intuitive bug tracker for QA (Quality Analyst) engineers and Project Managers
 
 ## Development Note
-- Will add more code soon.
+- Will add code soon.
