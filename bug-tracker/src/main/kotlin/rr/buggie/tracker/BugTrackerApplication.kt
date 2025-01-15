@@ -1,4 +1,4 @@
-package de.bugi.bug_tracker
+package rr.buggie.tracker
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
