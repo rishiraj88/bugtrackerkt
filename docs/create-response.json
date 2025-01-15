@@ -1,0 +1,26 @@
+{
+  "code": "INSTALMENTPAY-001",
+  "summary": "first bug in payment in instalments",
+  "description": "bug desc",
+  "priority": "LOW",
+  "projectDTO": {
+      "name": "DIRECTDEBITPAY",
+      "description": "Pay by Direct Debit"
+  },
+  "reporterDTO": {
+      "loginName": "rraj",
+      "role": "REPORTER"
+  },
+  "assigneeDTO": {
+      "loginName": "mbibo",
+      "role": "DEVELOPER"
+  },
+  "dateCreated": "2024-06-16T22:41:40.08377",
+  "dateResolved": null,
+  "dateClosed": null,
+  "type": "SOFTWARE_BUG",
+  "status": "OPEN",
+  "commentDTOs": null,
+  "workHistory": null,
+  "attachments": null
+}
