@@ -92,6 +92,7 @@ An intuitive bug tracker for QA (Quality Analyst) engineers and Project Managers
 
 ## Contact Pointers
 - **LinkedIn:** <https://www.linkedin.com/in/rishirajopenminds>
+- **HackerRank:** <https://www.hackerrank.com/profile/rishiraj49de>
 - **X:** <https://twitter.com/RishiRajDevOps>
 - **Start Page:** <https://bio.link/rishiraj49de>
 - **GitHub:** <https://github.com/rishiraj88>
