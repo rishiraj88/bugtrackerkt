@@ -23,8 +23,14 @@ An intuitive bug tracker for QA (Quality Analyst) engineers and Project Managers
 - [TDD] Fail, Implement, Pass tests, Refactor. Check up regularly.
 
 ## Testing
+### Test Automation Configuration
+The setup with Docker containerized database is working great!
+![Sample test run for the initial project config: PASSED](./assets/sample-project-test01-passed.png)
+
 
 ### Manual Testing
+Will be updated later.
+
 
 #### Create a bug
 ![Manual testing: Create a bug](./assets/manual-testing-_-create-bug.png)
