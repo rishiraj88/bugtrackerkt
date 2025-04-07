@@ -11,16 +11,19 @@ import org.springframework.context.annotation.Import
 @Import(TestcontainersConfiguration::class)
 @SpringBootTest
 class BugTrackerApiApplicationTests() {
-	@InjectMocks
-	lateinit var bugzController: BugController
-	@Mock
-	lateinit var bugRepository: BugRepository
-	@Test
-	fun should_return_all_bugs() =
-	bugzController.getAllBugs()
 
-	@Test
-	fun contextLoads() {
-	}
+    @InjectMocks
+    lateinit var bugzController: BugController
+
+    @Mock
+    lateinit var bugRepository: BugRepository
+
+    @Test
+    fun should_return_all_bugs() =
+        bugzController.getAllBugs()
+
+    @Test
+    fun contextLoads() {
+    }
 
 }

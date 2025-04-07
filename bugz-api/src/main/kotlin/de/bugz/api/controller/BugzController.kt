@@ -13,12 +13,12 @@ import org.springframework.web.bind.annotation.RestController
 @RestController
 @RequestMapping("/api/v1/bugz")
 class BugController(val bugRepository: BugRepository) {
+
     @GetMapping
     fun getAllBugs(): Iterable<ViewBug> = bugRepository.findAll().map { it.toView() }
 
     @PostMapping
     fun createBug(@RequestBody createBug: CreateBug): ViewBug {
-
         return bugRepository.save(
             Bug(
                 title = createBug.title,
@@ -26,4 +26,5 @@ class BugController(val bugRepository: BugRepository) {
             )
         ).toView()
     }
+
 }
