@@ -1,5 +1,6 @@
 package de.bugz.api.entity
 
+import de.bugz.api.dto.CreateBug
 import de.bugz.api.dto.ViewBug
 import jakarta.persistence.Entity
 import jakarta.persistence.GeneratedValue
@@ -17,4 +18,8 @@ data class Bug(
     val summary: String
 ) {
     fun toView() = ViewBug(id, title, summary)
+
+    companion object {
+        fun fromCreate(createBug: CreateBug): Bug = Bug(title = createBug.title, summary = createBug.summary)
+    }
 }

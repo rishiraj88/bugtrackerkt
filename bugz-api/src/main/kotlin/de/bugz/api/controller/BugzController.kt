@@ -20,10 +20,7 @@ class BugController(val bugRepository: BugRepository) {
     @PostMapping
     fun createBug(@RequestBody createBug: CreateBug): ViewBug {
         return bugRepository.save(
-            Bug(
-                title = createBug.title,
-                summary = createBug.summary
-            )
+            Bug.fromCreate(createBug)
         ).toView()
     }
 

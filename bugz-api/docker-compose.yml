@@ -1,8 +1,8 @@
 version: '4'
 services:
-  mysql:
+  bugzdb:
     image: mysql:8.3.0
-    container_name: mysql
+    container_name: bugzdb
     environment:
       MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
     ports:
@@ -17,4 +17,4 @@ services:
     ports:
       - "8080:8080"
     depends_on:
-      - mysql
+      - bugzdb
