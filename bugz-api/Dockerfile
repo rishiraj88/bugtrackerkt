@@ -14,7 +14,7 @@ RUN mkdir target
 
 LABEL maintainer="Rishi Raj"
 LABEL version="1.0"
-LABEL description="Dockerfile for Bugz (Headless) API with Kotlin and MySQL"
+LABEL description="Dockerfile for Bugz (Headless) API with Kotlin 1.9 (JDK 21) and MySQL"
 
 COPY --from=build /app/build/libs/app-0.0.1-SNAPSHOT.jar /app/target/
 EXPOSE 8080

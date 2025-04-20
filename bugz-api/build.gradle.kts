@@ -50,3 +50,6 @@ allOpen {
 tasks.withType<Test> {
 	useJUnitPlatform()
 }
+application {
+	mainClass.set("de.bugz.api.BugTrackerApiApplication")
+}
