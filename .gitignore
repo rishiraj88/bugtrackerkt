@@ -1,5 +1,6 @@
 tmp/
 .idea/
+desktop.ini
 
 # Compiled class file
 *.class

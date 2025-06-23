@@ -23,5 +23,4 @@ class BugController(val bugRepository: BugRepository) {
             Bug.fromCreate(createBug)
         ).toView()
     }
-
 }
