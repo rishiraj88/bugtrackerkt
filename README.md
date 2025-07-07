@@ -1,4 +1,4 @@
-# bugtrackerkt
+# Bug Tracker (Kotlin implementation)
 An intuitive bug tracker for QA (Quality Analyst) engineers and Project Managers, built with:
 - Kotlin 1.9.25 (at level Java 21)
 - Spring Boot 3.4.1
