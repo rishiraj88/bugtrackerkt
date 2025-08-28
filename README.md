@@ -7,7 +7,6 @@ An intuitive bug tracker for QA (Quality Analyst) engineers and Project Managers
 - MongoDB 7: Database engine (document-based)
 - Rest-Assured for Contract Testing
 - Docker for containerization
-- lombok for injecting boilerplate code
 
 ## Functionalities
 - Create a new bug
