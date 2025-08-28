@@ -2,12 +2,12 @@
 An intuitive bug tracker for QA (Quality Analyst) engineers and Project Managers, fostered with:
 - Kotlin 1.9.25 (at level Java 21)
 - Spring Boot 3.4.1
-- JUnit 5 (Jupiter)
+- JUnit 5 (Jupiter) for testing
 - Testcontainers, MockMvc
-- MongoDB 7: Database engine (a document-based data store)
+- MongoDB 7: Database engine (document-based)
 - Rest-Assured for Contract Testing
-- Docker
-- lombok
+- Docker for containerization
+- lombok for injecting boilerplate code
 
 ## Functionalities
 - Create a new bug
