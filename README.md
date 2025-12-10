@@ -1,5 +1,5 @@
 # Bug Tracker (Kotlin implementation)
-An intuitive bug tracker for QA (Quality Analyst) engineers and Project Managers, fostered with:
+An intuitive bug tracker for QA (Quality Analysts), developer and Project Managers, fostered with:
 - Kotlin 1.9.25 (at level Java 21)
 - Spring Boot 3.4.1
 - JUnit 5 (Jupiter) for testing
